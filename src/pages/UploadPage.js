@@ -42,6 +42,7 @@ export default function UploadPage() {
         }
 
       } catch (error) {
+        console.log(error)
         setSavingPost(false)
         alert("server error")
       }
