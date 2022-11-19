@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const setupAxios = () => {
   // axios.defaults.baseURL = `http://localhost:4000/api/v1`;
-  axios.defaults.baseURL = `https://powerful-citadel-39216.herokuapp.com`;
+  axios.defaults.baseURL = `https://powerful-citadel-39216.herokuapp.com/api/v1`;
   axios.defaults.headers = {
     'Cache-Control': 'no-cache,no-store',
     'Pragma': 'no-cache',
